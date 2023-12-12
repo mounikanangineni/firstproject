@@ -1,2 +1,8 @@
 package com.myspace.firstproject;
 
+rule "start-up"
+  when
+    // Empty
+  then   // Actions to be executed once
+    alerts.add( new Alert("INFO", "System started") );
+end
